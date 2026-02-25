@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaprekar Number Analyzer Pro</title>
+<link rel="stylesheet" href="230103029-lab-9-task-3.css">
+</head>
+
+<body class="light">
+
+<div class="container">
+
+<header>
+  <h1>🔢 Kaprekar Analyzer Pro</h1>
+  <button id="themeBtn">🌙</button>
+</header>
+
+<p class="subtitle">Check Kaprekar number and view full sequence</p>
+
+<div class="input-box">
+  <input type="number" id="inputNumber" placeholder="Enter number">
+  <button onclick="analyze()">Analyze</button>
+  <button class="clear" onclick="clearAll()">Clear</button>
+</div>
+
+<div id="output"></div>
+
+<h3>Kaprekar Sequence</h3>
+<div id="steps"></div>
+
+<h3>History</h3>
+<ul id="history"></ul>
+
+<button class="export" onclick="exportHistory()">Export History</button>
+
+</div>
+
+<script src="230103029-lab-9-task-3.js"></script>
+</body>
+</html>
