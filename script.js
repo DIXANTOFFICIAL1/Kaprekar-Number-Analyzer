@@ -11,7 +11,6 @@ document.body.classList.contains("dark")?"☀":"🌙";
 }
 
 function analyze(){
-
 let K=parseInt(input.value);
 output.innerHTML="";
 stepsDiv.innerHTML="";
