@@ -1,0 +1,86 @@
+body{
+margin:0;
+font-family:Segoe UI;
+background:#f3f4f6;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+transition:0.3s;
+}
+
+body.dark{
+background:#121212;
+color:white;
+}
+
+.container{
+background:white;
+width:420px;
+max-width:95%;
+padding:25px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,.3);
+animation:fade 0.5s;
+}
+
+body.dark .container{
+background:#1e1e1e;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+input,button{
+padding:10px;
+font-size:16px;
+border-radius:5px;
+border:none;
+}
+
+input{
+flex:1;
+border:1px solid #ccc;
+}
+
+.input-box{
+display:flex;
+gap:10px;
+margin:15px 0;
+flex-wrap:wrap;
+}
+
+button{
+background:#6366f1;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#4f46e5;
+}
+
+.clear{background:#ef4444;}
+.export{background:#10b981;}
+
+.success{color:#22c55e;}
+.error{color:#ef4444;}
+
+#steps div{
+background:#e5e7eb;
+padding:8px;
+margin:5px 0;
+border-radius:5px;
+}
+
+body.dark #steps div{
+background:#2a2a2a;
+}
+
+@keyframes fade{
+from{opacity:0;transform:translateY(10px)}
+to{opacity:1;transform:translateY(0)}
+}
