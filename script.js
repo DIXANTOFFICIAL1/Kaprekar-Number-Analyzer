@@ -40,6 +40,7 @@ function runSequence(num){
 let seen=new Set();
 while(!seen.has(num)){
 seen.add(num);
+  
 let s=num.toString().padStart(4,"0");
 let asc=s.split("").sort().join("");
 let desc=asc.split("").reverse().join("");
