@@ -2,7 +2,7 @@
 
 An advanced interactive web application to analyze Kaprekar numbers, visualize Kaprekar sequences, and explore number theory concepts in a clean and modern UI.
 
-🌐 Live Demo: https://yourusername.github.io/kaprekar-number-analyzer-pro/
+🌐 Live Demo: https://DIXANTOFFICIAL1.github.io/kaprekar-number-analyzer-pro/
 
 ---
 
