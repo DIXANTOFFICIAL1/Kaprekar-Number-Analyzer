@@ -28,7 +28,8 @@ let RP=parseInt(s.slice(mid))||0;
 
 if(LP+RP===K){
 output.innerHTML=`<p class="success">${K} is Kaprekar Number</p>`;
-}else{
+}else
+{
 output.innerHTML=`<p class="error">${K} is NOT Kaprekar Number</p>`;
 }
 
