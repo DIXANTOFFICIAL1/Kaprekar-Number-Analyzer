@@ -1,4 +1,4 @@
-# 🔢 Kaprekar Number Analyzer Pro
+# 🔢 Kaprekar Number Analyzer 
 
 An advanced interactive web application to analyze Kaprekar numbers, visualize Kaprekar sequences, and explore number theory concepts in a clean and modern UI.
 
