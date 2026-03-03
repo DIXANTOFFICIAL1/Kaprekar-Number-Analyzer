@@ -10,7 +10,8 @@ themeBtn.textContent=
 document.body.classList.contains("dark")?"☀":"🌙";
 }
 
-function analyze(){
+function analyze()
+{
 let K=parseInt(input.value);
 output.innerHTML="";
 stepsDiv.innerHTML="";
