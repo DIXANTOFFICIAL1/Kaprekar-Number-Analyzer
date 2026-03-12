@@ -70,7 +70,6 @@ function exportHistory(){
 let data=[...history.children]
 .map(li=>li.textContent)
 .join("\n");
-
 let blob=new Blob([data],
 {type:"text/plain"});
 let a=document.createElement("a");
