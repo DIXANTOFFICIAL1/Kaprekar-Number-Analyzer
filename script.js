@@ -15,7 +15,6 @@ function analyze()
 let K=parseInt(input.value);
 output.innerHTML="";
 stepsDiv.innerHTML="";
-
 if(isNaN(K)||K<=0){
 output.innerHTML="<p class='error'>Enter valid positive number</p>";
 return;
