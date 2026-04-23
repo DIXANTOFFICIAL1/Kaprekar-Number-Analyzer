@@ -20,7 +20,6 @@ output.innerHTML="<p class='error'>Enter valid positive number</p>";
 return;
 }
 
-  
 let N=K*K;
 let s=N.toString();
 let mid=Math.floor(s.length/2);
