@@ -37,7 +37,6 @@ runSequence(K);
 addHistory(K);
 }
 
-
 function runSequence(num){
 let seen=new Set();
 while(!seen.has(num)){
