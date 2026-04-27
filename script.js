@@ -49,8 +49,7 @@ let res=parseInt(desc)-parseInt(asc);
 stepsDiv.innerHTML+=
 `<div>${desc} - ${asc} = ${res}</div>`;
 num=res;
-}
-}
+} }
 
 function addHistory(n){
 let li=document.createElement("li");
